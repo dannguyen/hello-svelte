@@ -4,6 +4,12 @@ html, body {
 	height: 100%;
 }
 
+
+header{
+	margin: auto;
+	text-align: center;
+}
+
 body {
 	color: #333;
 	margin: 0;

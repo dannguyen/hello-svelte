@@ -1,8 +1,7 @@
 <script>
-	let name = "Just Appy";
-    let catSrc = "./assets/cat.jpg";
+	let name = "World";
 
-    import Button from './Button.svelte';
+    import Loader from './Loader.svelte';
 </script>
 
 <style>
@@ -18,9 +17,10 @@
 
 </style>
 
-<h1>Hello {name}!</h1>
+<header>
+    <h1>Hello {name}, welcome to CageLoader!</h1>
+</header>
+
+<Loader />
 
 
-<Button />
-
-<img src="{catSrc}" alt="cat image">
